@@ -12,7 +12,7 @@ if today == 5:
             
     with smtplib.SMTP('smtp.gmail.com') as connection:
         connection.starttls()
-        connection.login(user='trtltrtlgame@gmail.com', password='sexqowripzuhebck')
+        connection.login(user='trtltrtlgame@gmail.com', password='ENTER_APP_PASSWORD')
         connection.sendmail(
                 from_addr='trtlgame@gmail.com', 
                 to_addrs='trtltrtlgame@gmail.com', 
